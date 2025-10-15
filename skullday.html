@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil SMK Negeri 1 Indralaya Selatan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #a8cfff, #cdb4db);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    nav {
+      background: rgba(255,255,255,0.9);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #6a5495;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px 30px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #4a4a8a;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #6a5495;
+    }
+    footer {
+      text-align: center;
+      background: #cdb4db;
+      color: white;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 10px;
+        font-size: 14px;
+      }
+      .container {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#jurusan">Jurusan</a>
+    <a href="#kelas">Kelas & Ruang</a>
+    <a href="#lab">Laboratorium</a>
+    <a href="#fasilitas">Fasilitas Lain</a>
+  </nav>
+
+  <div class="container">
+    <section id="profil">
+      <h1>SMK Negeri 1 Indralaya Selatan</h1>
+      <p>
+        SMK Negeri 1 Indralaya Selatan adalah sekolah kejuruan yang berkomitmen untuk mencetak lulusan siap kerja dan profesional. Sekolah ini menyediakan berbagai jurusan keahlian, fasilitas pembelajaran modern, dan lingkungan yang mendukung pengembangan siswa.
+      </p>
+    </section>
+
+    <section id="jurusan">
+      <h2>Jurusan yang Ada</h2>
+      <div class="grid">
+        <div class="card"><h3>Teknik Jaringan Komputer</h3></div>
+        <div class="card"><h3>Multimedia </h3></div>
+        <div class="card"><h3>Rekayasa Perangkat Lunak</h3></div>
+        <div class="card"><h3>Perikanan</h3></div>
+        <div class="card"><h3>Teknik Elektronika</h3></div>
+        <div else class="card"><h3>Pengelasan</h3></div>
+        <div class="card"><h3>Teknik Tenaga Listrik</h3></div>
+      </div>
+    </section>
+
+    <section id="kelas">
+      <h2>Kelas & Ruang Belajar</h2>
+      <p>
+        Sekolah memiliki <strong>30 kelas</strong> dengan ruang belajar yang nyaman dan dilengkapi meja, kursi, papan tulis, dan AC (atau kipas, tergantung ruang). 
+      </p>
+      <ul>
+        <li>Kelas reguler tiap jurusan: 3-4 kelas jurusan × 7 jurusan = 21 kelas</li>
+        <li>Kelas umum / lintas jurusan: 9 kelas (untuk pelajaran umum dan tambahan)</li>
+        <li>Ruang belajar dilengkapi pencahayaan, ventilasi, dan koneksi listrik untuk perangkat siswa</li>
+      </ul>
+    </section>
+
+    <section id="lab">
+      <h2>Laboratorium Kejuruan</h2>
+      <p>Setiap jurusan memiliki laboratorium khusus sebagai berikut:</p>
+      <div class="grid">
+        <div class="card">
+          <section id="lab-jaringan-komputer">
+  <h2>Lab Teknik Jaringan Komputer</h2>
+  <ul>
+    <li>Router, switch, dan modem</li>
+    <li>Perangkat komputer untuk konfigurasi jaringan</li>
+    <li>Kabel jaringan dan alat tes jaringan</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+          <section id="lab-multimedia">
+  <h2>Lab Multimedia</h2>
+  <ul>
+    <li>Perangkat editing video dan audio</li>
+    <li>Studio foto dan pencahayaan</li>
+    <li>Software desain grafis dan animasi</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+          <section id="lab-rpl">
+  <h2>Lab Rekayasa Perangkat Lunak</h2>
+  <ul>
+    <li>Komputer dengan software pemrograman</li>
+    <li>Server lokal untuk testing aplikasi</li>
+    <li>Peralatan debugging dan pengujian perangkat lunak</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+          <section id="lab-perikanan">
+  <h2>Lab Perikanan</h2>
+  <ul>
+    <li>Akuarium & bak pemijahan</li>
+    <li>Aerator, serok, ember</li>
+    <li>pH meter, DO meter, thermometer</li>
+    <li>Mikroskop & alat uji kualitas air</li>
+    <li>Bibit ikan (lele, nila, gurame)</li>
+    <li>Pakan & alat pemberian pakan</li>
+    <li>Meja praktik & alat pencatat data</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+          <section id="lab-elektronika">
+  <h2>Lab Teknik Elektronika</h2>
+  <ul>
+    <li>Alat pengukuran elektronik (multimeter, osiloskop)</li>
+    <li>Komponen elektronik (resistor, kapasitor, transistor)</li>
+    <li>Peralatan solder dan PCB untuk perakitan rangkaian</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+          <section id="lab-pengelasan">
+  <h2>Lab Pengelasan</h2>
+  <ul>
+    <li>Mesin las listrik (arc welding)</li>
+    <li>Peralatan pelindung diri (helm las, sarung tangan)</li>
+    <li>Peralatan bantu (gerinda, kikir, palu)</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="card">
+  <h2>Lab Teknik Tenaga Listrik</h2>
+  <ul>
+    <li>Panel listrik dan instalasi praktikum</li>
+    <li>Peralatan pengukur listrik (multimeter, amperemeter)</li>
+    <li>Motor listrik dan generator kecil</li>
+  </ul>
+</section>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="fasilitas">
+      <h2>Fasilitas Lain & Fungsinya</h2>
+      <ul>
+        <li><strong>Lapangan Sekolah:</strong> digunakan untuk upacara, olahraga (sepak bola, basket, voli).</li>
+        <li><strong>Ruang Guru:</strong> ruang khusus bagi guru untuk persiapan materi, meeting, dan istirahat.</li>
+        <li><strong>Perpustakaan:</strong> buku-buku pelajaran, referensi, ruang baca nyaman.</li>
+        <li><strong>Ruang UKS (Unit Kesehatan Sekolah):</strong> untuk perawatan ringan siswa dan kegiatan kesehatan.</li>
+        <li><strong>Aula / Ruang Serbaguna:</strong> untuk acara besar, pertemuan, ujian praktikum.</li>
+        <li><strong>Ruang Administrasi & TU:</strong> bagian tata usaha, sekretariat, pembagian rapor, dan administrasi sekolah.</li>
+        <li><strong>Toilet & Kamar Mandi:</strong> tersebar di tiap lantai, tiap blok jurusan, bersih dan terawat.</li>
+        <li><strong>Jalur Koridor & Tangga:</strong> akses antar lantai dan antar blok jurusan.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <section id="galeri">
+  <h2>Galeri Foto Sekolah</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="gerbang.jfif" alt="Gerbang Sekolah" style="width:100%; border-radius:8px;" />
+      <p style="text-align:center; margin-top:10px;">Gerbang Utama</p>
+    </div>
+    <div class="card">
+      <img src="ruaangkelas.jpg" alt="Ruang Kelas" style="width:100%; border-radius:8px;" />
+      <p style="text-align:center; margin-top:10px;">Ruang Kelas</p>
+    </div>
+    <div class="card">
+      <img src="lab.jpeg" alt="Lab Sekolah" style="width:100%; border-radius:8px;" />
+      <p style="text-align:center; margin-top:10px;">Lab Sekolah</p>
+    </div>
+    <div class="card">
+      <img src="lpngn.jfif" alt="Lapangan Sekolah" style="width:100%; border-radius:8px;" />
+      <p style="text-align:center; margin-top:10px;">Lapangan Sekolah</p>
+    </div>
+    <div class="card">
+      <img src="rgguru.jfif" alt="Ruang Guru" style="width:100%; border-radius:8px;" />
+      <p style="text-align:center; margin-top:10px;">Ruang Guru</p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    &copy; 2025 SMK Negeri 1 Indralaya Selatan. Semua hak dilindungi.
+  </footer>
+</body>
+</html>
